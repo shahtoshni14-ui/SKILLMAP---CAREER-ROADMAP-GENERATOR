@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillMap - Career Roadmap Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="logo">🚀 SkillMap</h1>
+
+    <p class="quote">
+    "Your roadmap today becomes your career tomorrow." 🚀
+</p>
+
+    <div class="hero-card">
+
+        <h2>Choose Your Dream Career 🎯</h2>
+
+        <select id="career">
+            <option value="">Select Career Path</option>
+            <option>👨‍💻 Web Developer</option>
+            <option>☕ Java Developer</option>
+            <option>📊 Data Analyst</option>
+            <option>🤖 AI / ML Engineer</option>
+            <option>🔒 Cyber Security Analyst</option>
+        </select>
+
+        <button onclick="generateRoadmap()">
+            🚀 Generate Roadmap
+        </button>
+
+    </div>
+
+    <div id="progressSection"></div>
+    <div class="badges-section">
+    <h2>🏆 Achievement Badges</h2>
+    <div id="badges-container"></div>
+
+    
+</div>
+    <div id="dashboard"></div>
+
+<div id="roadmapContainer"></div>
+
+</div>
+
+<script src="script.js"></script>
+<div class="container">
+
+    ...
+
+    <div id="roadmapContainer"></div>
+
+    <div class="certifications-section">
+        <h2>🎓 Recommended Certifications</h2>
+        <ul id="certification-list"></ul>
+    </div>
+<div class="projects-section">
+    <h2>💡 Recommended Projects</h2>
+    <ul id="project-list"></ul>
+</div>
+<div class="tips-section">
+    <h2>🧠 Expert Career Advice</h2>
+    <p id="career-tip">
+        Select a career path to see tips.
+    </p>
+</div>
+<div class="action-buttons">
+
+    <button onclick="downloadProgress()">
+        📥 Download Progress
+    </button>
+
+    <button onclick="resetProgress()">
+        🔄 Reset Progress
+    </button>
+
+</div>
+<section class="resources-section">
+
+   
+
+    <div class="resources-section">
+    <h2>📚 Learning Resources</h2>
+    <ul id="resource-list"></ul>
+</div>
+
+    
+
+</section>
+<footer>
+    🚀 Built by Toshni Shah | SkillMap 2026
+</footer>
+</body>
+</html>
